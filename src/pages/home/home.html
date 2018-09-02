@@ -1,0 +1,15 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+   
+  <button ion-button (click)="HideNavigateButton()">Click Button</button>
+  <div *ngIf="hideMe">
+      <button ion-button (click)="NavigateToSignIn()">Click Here</button>  
+  </div>
+</ion-header>
+
+<ion-content padding>
+
+</ion-content>
